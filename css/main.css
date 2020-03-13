@@ -1,0 +1,114 @@
+* {
+  font-size: 14px;
+}
+
+body {
+  background: #f4f4f4;
+  color: #3b3b3b;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.data {
+  width: 100%;
+  margin: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 10px;
+  margin: 10px 20px 5px 20px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+}
+
+form {
+  min-width: 250px;
+  background: #e7e7e7;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 3px 0px #cecece, -2px -2px 3px 0px white;
+          box-shadow: 2px 2px 3px 0px #cecece, -2px -2px 3px 0px white;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input {
+  margin: 5px 20px;
+  font-size: 1.1rem;
+  text-indent: 5px;
+}
+
+.formFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  background: #747070;
+  color: white;
+  font-size: 1.1rem;
+  margin: 5px 20px 15px 20px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #817d7d;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #d32323;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.form-msg {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 0 20px;
+}
+/*# sourceMappingURL=main.css.map */
