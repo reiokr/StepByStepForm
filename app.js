@@ -17,7 +17,6 @@ class Input {
     return input;
   }
 }
-
 // Create class for buttons
 class Button {
   constructor(type, value, className, id, innerhtml) {
@@ -27,7 +26,6 @@ class Button {
     this.id = id;
     this.innerhtml = innerhtml;
   }
-
   // create method for button attributes
   createButton() {
     const button = document.createElement('button');
@@ -39,7 +37,6 @@ class Button {
     return button;
   }
 }
-
 // create HTML elements
 const form = document.createElement('form');
 form.id = "form";
